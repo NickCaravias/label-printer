@@ -1,7 +1,7 @@
 from picamera import PiCamera
 from time import sleep
 file_name = input('Enter file name: ' )
-file_path = '/home/ncaravias/label-printer/' + file_name + '.jpg'
+file_path = '/home/ncaravias/label-printer/' + file_name + '.png'
 
 camera = PiCamera()
 
